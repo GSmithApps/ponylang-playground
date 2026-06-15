@@ -1,0 +1,14 @@
+{
+  "name": "pony-sandbox",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "openai.chatgpt"
+      ]
+    }
+  },
+  "postCreateCommand": "ponyc --version"
+}
