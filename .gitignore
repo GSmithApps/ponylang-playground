@@ -1,0 +1,7 @@
+ponylang-playground
+*.o
+*.bc
+*.ll
+build/
+corral/
+.deps/
